@@ -10,7 +10,7 @@ body {
    font-weight: 400;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
-   font-family: "Poppins", sans-serif !important;
+   font-family: "Uber Move", sans-serif !important;
 }
 
 p {
@@ -24,7 +24,7 @@ a {
 }
 
 a:hover {
-   color: $hoverTwo;
+   color: $hover;
 }
 
 p,
@@ -37,7 +37,7 @@ h5 {
    color: #222222;
    margin: 0;
    font-weight: 400;
-   font-family: "Poppins", sans-serif !important;
+   font-family: "Uber Move", sans-serif !important;
 }
 
 ul {
@@ -336,4 +336,22 @@ table {
 
 .width-100 {
    width: 100%;
+}
+
+.common-btn {
+   background: $hover;
+   color: #ffffff;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 17px;
+   display: inline-block;
+   border-radius: 100px;
+   text-transform: uppercase;
+   text-align: center;
+   cursor: pointer;
+   padding: 14px 20px;
+   transition: all 0.3s ease-in;
+   &:hover {
+      color: #ffffff;
+   }
 }

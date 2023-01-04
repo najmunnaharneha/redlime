@@ -1,0 +1,105 @@
+@import "var";
+@import "fonts";
+@import "reset";
+
+@import url(//db.onlinewebfonts.com/c/573089545ab542f15b3e755559e383ae?family=Uber+Move);
+
+@import "../lib/nice-select/scss/nice-select.scss";
+
+html {
+   scroll-behavior: smooth;
+}
+
+// Footer Starts
+.footer {
+   // background-color: #ede7f0;
+   background-color: #101010;
+   .footer-top {
+      .footer-contents {
+         .footer-single {
+            .footer-title {
+               font-weight: 700;
+               font-size: 25px;
+               line-height: 30px;
+               color: #fff;
+               margin-bottom: 20px;
+            }
+            h6 {
+               font-weight: 500;
+               font-size: 20px;
+               line-height: 28px;
+               color: #fff;
+               margin-bottom: 40px;
+            }
+            p {
+               font-weight: 500;
+               font-size: 20px;
+               line-height: 28px;
+               color: #fff;
+               margin-bottom: 10px;
+            }
+            a {
+               font-weight: 700;
+               font-size: 20px;
+               line-height: 24px;
+               color: #fff;
+            }
+            .footer-menu {
+               li {
+                  a {
+                     font-weight: 500;
+                     font-size: 20px;
+                     line-height: 24px;
+                     text-decoration-line: underline;
+                     padding-bottom: 20px;
+                     &:hover {
+                        color: $hover;
+                     }
+                  }
+               }
+            }
+            .subscribe {
+               .form-control {
+                  padding: 15px 20px;
+                  color: #3a494e;
+                  background: #fff;
+                  border: 1px solid #d7d7d7;
+                  border-radius: 5px;
+                  font-weight: 500;
+                  font-size: 16px;
+                  line-height: 19px;
+               }
+               .subscribe-btn {
+                  display: flex;
+                  justify-content: flex-end;
+                  .common-btn {
+                     background: #0376f9;
+                     margin-top: 20px;
+                     &:hover {
+                        background: $hover;
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+   .copyright-area {
+      background-color: #060606;
+      border-top: 1px solid #454141;
+      .copyright-contents {
+         span {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #fff;
+         }
+      }
+   }
+
+   @media (max-width: 991px) {
+   }
+   @media (max-width: 767px) {
+   }
+}
+// Footer Ends
