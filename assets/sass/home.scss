@@ -10,6 +10,55 @@ html {
    scroll-behavior: smooth;
 }
 
+// Why Us Start
+.why-us {
+   background: #f8f8f8;
+   .why-us-single {
+      .image {
+         position: relative;
+         img {
+            max-width: 100%;
+            margin: auto;
+            max-height: 373px;
+            border-radius: 15px;
+         }
+         .indicator {
+            position: absolute;
+            right: 40px;
+            bottom: 20px;
+            a {
+               img {
+                  width: 83px;
+                  height: 83px;
+                  color: #fff;
+               }
+            }
+         }
+      }
+      h3 {
+         margin-top: 22px;
+         margin-bottom: 30px;
+         font-weight: 700;
+         font-size: 35px;
+         line-height: 42px;
+      }
+      p {
+         font-weight: 500;
+         font-size: 20px;
+         line-height: 35px;
+         color: #8c8686;
+      }
+   }
+   @media (max-width: 767px) {
+      .why-us-single {
+         p:last-child {
+            padding-bottom: 60px;
+         }
+      }
+   }
+}
+// Why Us Ends
+
 // Footer Starts
 .footer {
    // background-color: #ede7f0;
@@ -73,7 +122,7 @@ html {
                   display: flex;
                   justify-content: flex-end;
                   .common-btn {
-                     background: #0376f9;
+                     background: $blue;
                      margin-top: 20px;
                      &:hover {
                         background: $hover;
